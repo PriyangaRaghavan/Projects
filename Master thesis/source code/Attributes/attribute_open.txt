@@ -1,0 +1,3 @@
+open:TRUE FALSE
+air-quality:numerical
+class:prestate poststate

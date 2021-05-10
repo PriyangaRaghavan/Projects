@@ -1,0 +1,12 @@
+on-heater: True False
+off-heater: True False
+temp: continuous
+temp-threshold-low: 18
+temp-threshold-high: 24
+open: True False
+close: True False
+air-quality: continuous
+air-quality-threshold: 80
+on-light: True False
+luminance: continuous
+lum-threshold: 0.5

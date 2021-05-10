@@ -1,0 +1,24 @@
+
+Extracted rules for action on-heater:
+IF on-heater=FALSE and temp<22.4 THEN Class is prestate
+IF on-heater=TRUE and temp>=22.2 THEN Class is poststate
+
+Extracted rules for action off-heater:
+IF off-heater=FALSE and temp>=23.6 THEN Class is prestate
+IF off-heater=TRUE and temp<20.3 THEN Class is poststate
+
+Extracted rules for action open:
+IF open=FALSE and air-quality>=684 THEN Class is prestate
+IF open=TRUE and air-quality<462 THEN Class is poststate
+
+Extracted rules for action close:
+IF close=FALSE and air-quality<405 THEN Class is prestate
+IF close=TRUE and air-quality>=565 THEN Class is poststate
+
+Extracted rules for action on-light:
+IF on-light=FALSE and luminance<370 and presence=TRUE THEN Class is prestate
+IF on-light=TRUE and luminance>=570 and presence=FALSE THEN Class is poststate
+
+Extracted rules for action off-light:
+IF off-light=FALSE and presence=TRUE THEN Class is prestate
+IF off-light=TRUE and presence=FALSE THEN Class is poststate

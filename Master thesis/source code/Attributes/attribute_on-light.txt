@@ -1,0 +1,4 @@
+on-light:TRUE FALSE
+luminance:numerical
+presence:TRUE FALSE
+class:prestate poststate

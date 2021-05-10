@@ -1,0 +1,7 @@
+ref_precondition : 20,24,800,450,400
+ref_effect : 24,20,450,800,400
+
+
+
+learned_precondition :18.2,23.3,690,405,345,
+learned_effect: 22,21.6,452,572,570,

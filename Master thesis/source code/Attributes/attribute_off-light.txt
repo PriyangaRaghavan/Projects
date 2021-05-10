@@ -1,0 +1,3 @@
+off-light:TRUE FALSE
+presence:TRUE FALSE
+class:prestate poststate

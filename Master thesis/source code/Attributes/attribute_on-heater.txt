@@ -1,0 +1,3 @@
+on-heater:TRUE FALSE
+temp:numerical
+class:prestate poststate

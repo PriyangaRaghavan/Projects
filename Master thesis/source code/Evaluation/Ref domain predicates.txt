@@ -1,0 +1,24 @@
+
+on-heater:
+precondition: (not(on-heater)) (temp)
+effect: (on-heater) (temp)
+
+off-heater:
+precondition: (on-heater) (temp) 
+effect: (not(on-heater)) (temp)
+
+open:
+precondition: (not(open)) (air-quality) 
+effect: (open) (air-quality)
+
+close:
+precondition: (open) (air-quality)
+effect: (not(open)) (air-quality)
+
+on-light:
+precondition: (not(on-light)) (luminance) (presence)
+effect: (on-light) (luminance)
+
+off-light:
+precondition: (on-light) (not(presence))
+effect: (not(on-light))
